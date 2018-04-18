@@ -10,3 +10,31 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+def help 
+  help = 
+ " I accept the following commands:
+- help : displays this help message
+- list : displays a list of songs you can play
+- play : lets you choose a song to play
+- exit : exits this program"
+puts help 
+end
+
+def list(songs)
+  songs.each_with_index do |song, i|
+  puts "#{i+1}. #{song}"
+  end
+end
+  
+def play 
+   
+end
+  
+def exit_jukebox
+  puts "Goodbye"
+end
+  
+  
+  
+  
+  
